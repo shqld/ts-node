@@ -1,0 +1,15 @@
+{
+  "name": "@shqld/ts-node",
+  "version": "1.0.1",
+  "license": "MIT",
+  "bin": {
+    "ts-node": "ts-node.sh"
+  },
+  "dependencies": {
+    "@babel/node": "7.x"
+  },
+  "peerDependencies": {
+    "@babel/core": "7.x",
+    "@babel/preset-typescript": "7.x"
+  }
+}
